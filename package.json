@@ -1,0 +1,23 @@
+{
+  "name": "playwright-framework",
+  "version": "1.0.0",
+  "description": "Playwright TypeScript Framework with Playwright Test Runner",
+  "scripts": {
+    "postinstall": "npx playwright install",
+    "env:test": "cross-env test_env=test npx playwright test"
+  },
+  "keywords": [
+    "playwright test runner",
+    "playwright typescript framework"
+  ],
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.27.1",
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.0.3",
+    "playwright": "^1.27.1"
+  },
+  "dependencies": {
+    "typescript": "^4.8.4"
+  }
+}

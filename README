@@ -1,0 +1,13 @@
+# Playwright test framework for Cyberhaven - Typescript
+
+## How to use?
+- Clone the repository
+- open the project
+- From the terminal install all the dependencies using 'npm i'
+- In case dotenv doesn't want to automatically install run 'npm i dotenv'
+- Run the test with 'npx cross-env test_env=test npx playwright test'
+
+## Required software
+- Node js -> v.18 or above
+- VS Code
+- Playwright Vs Code Extension
